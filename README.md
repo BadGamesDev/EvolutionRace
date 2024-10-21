@@ -1,2 +1,2 @@
 # EvolutionRace
- RTS wave defence where the enemies evolve. Name is placeholder.
+ Name is a placeholder. RTS wave defence where the enemies evolve.
