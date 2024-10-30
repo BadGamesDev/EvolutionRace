@@ -3,6 +3,7 @@ using UnityEngine;
 public class Controls : MonoBehaviour
 {
     public GameState gameState;
+    public MainUIFunctions mainUIFunctions;
 
     void Update()
     {
@@ -43,6 +44,8 @@ public class Controls : MonoBehaviour
         }
         else if (clickedObject.CompareTag("Building"))
         {
+            gameState.selectedBuildings.Add(clickedObject.GetComponent<BuildingMain>());
+            mainUIFunctions.UpdateButtonFunctions();
             Debug.Log("clicked building");
         }
     }

@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7565535523117963111}
   - component: {fileID: -4485858712720914944}
   m_Layer: 0
-  m_Name: Tree
+  m_Name: Stone
   m_TagString: Resource
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -119,8 +119,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaf2e112d8100714195c76f969d00878, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 2
-  amount: 20
+  type: 3
+  amount: 200
 --- !u!114 &-4485858712720914944
 MonoBehaviour:
   m_ObjectHideFlags: 0
